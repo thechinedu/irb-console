@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #fff;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.CodeMirror { height: 100%; }
+
+#wrapper {
+  max-width: 1280px;
+  width: 100%;
+  position: relative;
+}
+
+#editor {
+  float: left;
+  font-size: 12px;
+  width: 58.3%;
+  padding-right: 10px;
+  height: 10000px;
+}
+
+#output {
+  background-color: #0e1628;
+  color: #44aa11;
+  float: left;
+  border: 1px solid #f5f5f5;
+  width: 42.7%;
+  height: 100%;
+  position: fixed;
+  right: 0;
+  padding: 15px;
+}
+
+#output .prompt {
+  color: #f96901;
+}
+
+#output .logs .log {
+  color: #fff;
+  display: block;
+}

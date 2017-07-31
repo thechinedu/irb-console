@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "Irb-Console",
+  "description": "A repl interface for programming Ruby in the browser developer console",
+  "homepage_url": "https://github.com/blueyedgeek/irb-console",
+  "version": "0.1",
+  "devtools_page": "./devtools/devtools.html",
+  "icons": {
+    "16": "./devtools/assets/img/logo.png",
+    "48": "./devtools/assets/img/logo.png",
+    "128": "./devtools/assets/img/logo.png"
+  },
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
+}
