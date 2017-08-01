@@ -66,7 +66,6 @@
 
       logs.clear();
     } catch(ex) {
-      alert( JSON.stringify(ex) );
       output.textContent = '=> ' + ex.name + '. ' + ex.message;
       output.style.color = '#bb1144';
     }
