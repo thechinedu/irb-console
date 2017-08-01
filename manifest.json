@@ -4,7 +4,7 @@
   "name": "Irb-Console",
   "description": "A repl interface for programming Ruby in the browser developer console",
   "homepage_url": "https://github.com/blueyedgeek/irb-console",
-  "version": "0.1",
+  "version": "0.2",
   "devtools_page": "./devtools/devtools.html",
   "icons": {
     "16": "./devtools/assets/img/icon16.png",
